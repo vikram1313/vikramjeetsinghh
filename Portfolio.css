@@ -1,0 +1,265 @@
+*{
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   color: #fff;
+}
+
+body{
+     background-color: black; 
+  background-image: url(blur.png) ;
+}
+
+.box-color{
+    background-color: #1E1B1E; 
+    /* From https://css.glass
+background: rgba(255, 255, 255, 0.31);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.1px);
+-webkit-backdrop-filter: blur(8.1px);
+border: 1px solid rgba(255, 255, 255, 0.3); */
+}
+
+.button{
+    background-color: #8325FD;
+}
+
+.container{
+    display: flex;
+}
+
+.container-1{
+    /* background-color: #fff; */
+    width: 50%;
+    padding-left: 10px;
+}
+
+.box-1 {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    max-width: 600px;
+    
+}
+
+.Head-text {
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.hire-me{
+    font-size: 20px;
+    /* font-weight: 100px; */
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    max-width: 150px;
+    margin-left: 400px;
+    position: absolute;
+    top: 25%;
+}
+
+.hire-me img{
+    height: 30px;
+    padding-left: 10px; 
+}
+
+.box-2{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    max-width: 186px;
+}
+
+.sub-heading{
+    font-weight: bold;
+}
+
+.services{
+    display: flex;
+}
+
+.box-3{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    max-width: 600px;
+}
+
+.project{
+    display: flex;
+   justify-content: space-between;
+}
+
+.project-list img{
+    border-radius: 20px;
+    width: 170px;
+    height: 250px;
+}
+
+.project-1{
+    font-size: 20px;
+    /* font-weight: 100px; */
+    /* align-items: center; */
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin-left: 10px; 
+    text-decoration: none;
+}
+
+/* .service-body{
+    font-size: 12px;
+} */
+
+
+
+/* right side CSS */
+
+.container-2 {
+    /* background-color: #fff; */
+    width: 50%;
+}
+
+.box-4{
+    /* padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px; */
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 600px;
+    display: flex;
+}
+
+.label{
+    color: #797676;
+}
+
+.name-1{
+    margin-left: 390px;
+}
+
+.name-2{
+    margin-left: 220px;
+}
+
+.box-5{
+    /* padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px; */
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 600px;
+    display: flex;
+}
+
+.photo-geo{
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 600px;
+    display: flex;
+    /* margin: 10px; */
+    /* justify-content: space-between; */
+   
+}
+
+.photo img{
+    background-color: #8325FD;
+    width: 220px;
+    height: 235px;
+    border-radius: 20px;
+}
+
+.geo{
+    padding: 20px;
+    border-radius: 20px;
+    width: 500px;
+    margin-left: 20px;
+}
+
+.geo img{
+    width: 320px;
+    height: 150px;
+}
+
+.label-name{
+    align-items: center;
+    display: flex;
+}
+
+.name-3{
+    margin-left: 170px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.instagram{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.instagram h3{
+    margin-left: 10px;
+}
+
+.behance{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.behance h3{
+    margin-left: 10px;
+}
+
+
+.linkedin{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.linkedin h3{
+    margin-left: 10px;
+}
+
+
+.intro{
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 600px;
+}
+
+.box-6{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 600px;
+    display: flex;
+}
